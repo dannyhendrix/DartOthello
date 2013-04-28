@@ -1,0 +1,68 @@
+
+body 
+{
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p 
+{
+  color: #333;
+}
+
+#message p
+{
+  padding:10px 0px;
+}
+
+#message p
+{
+  font-weight:bold;
+}
+
+button
+{
+  border: 1px solid rgb(216, 216, 216);
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  padding: 4px 8px;
+  outline:0px;
+}
+
+select
+{
+  border: 1px solid rgb(216, 216, 216);
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  padding: 4px 8px;
+  outline:0px;
+}
+
+button:hover
+{
+  cursor:pointer;
+  background:rgb(247, 247, 247);
+}
+
+div#levels canvas, div#preview canvas
+{
+  border: 1px solid rgb(216, 216, 216);
+  padding: 5px;
+  background: #fff;
+  margin: 5px;
+}
+
+div#levels canvas:hover, div#preview canvas:hover
+{
+  cursor:pointer;
+  background:rgb(247, 247, 247);
+}
+
+#game
+{
+  cursor:pointer;
+}
